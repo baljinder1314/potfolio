@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Playfair Display", serif;
+}
+.container {
+  @apply mx-auto px-4;
+}
+
+.orgBtn{
+  @apply bg-[#212121] text-white font-bold py-2 px-4 rounded shadow-md;
+}
+
+.orgWhite{
+  @apply bg-white text-[#212121] font-bold py-2 px-4 rounded;
+}
