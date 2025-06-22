@@ -16,7 +16,7 @@ function Navbar() {
           <Hamburger size={22} toggled={isOpen} toggle={setOpen} />
         </div>
 
-        <div className={`${isOpen === true ? " right-0 duration-500 bg-white" : " right-[120%] duration-500"} top-full -z-50 content w-full absolute lg:static  items-center justify-between    flex  px-6 py-2 lg:px-0 lg:py-0 `}>
+        <div className={`${isOpen === true ? " right-0 duration-500 bg-white" : " right-[120%] duration-500"} top-full z-50 content w-full absolute lg:static  items-center justify-between    flex  px-6 py-2 lg:px-0 lg:py-0 `}>
           <div className="flex flex-col lg:flex-row lg:justify-between w-full gap-3 lg:items-center">
             <div className="content ">
               <ul className="flex flex-col lg:flex-row lg:gap-3 gap-4 ">
@@ -32,7 +32,7 @@ function Navbar() {
                 <li>
                   <a
                     className="capitalize lg:text-[18px] text-[17px]  flex items-center gap-2 "
-                    href="/"
+                    href="#me"
                   >
                     <IoPersonSharp className="text-2xl" />
                     About Me{" "}
@@ -41,7 +41,7 @@ function Navbar() {
                 <li>
                   <a
                     className="capitalize lg:text-[18px] text-[17px]  flex items-center gap-2 "
-                    href="/"
+                    href="#projects"
                   >
                     <PiProjectorScreenFill className="text-2xl" />
                     Projects
@@ -50,7 +50,7 @@ function Navbar() {
                 <li>
                   <a
                     className="capitalize lg:text-[18px] text-[17px]  flex items-center gap-2 "
-                    href="/"
+                    href="#skills"
                   >
                     <IoDocument className="text-2xl" />
                     Expertise

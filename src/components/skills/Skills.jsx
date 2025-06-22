@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="skillsContainer  md:mt-20">
+    <div className="skillsContainer  md:mt-10">
       <div className="container  ">
         <div
           className="flex

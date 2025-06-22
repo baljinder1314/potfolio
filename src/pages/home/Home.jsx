@@ -8,22 +8,22 @@ import MyProject from "../../components/myProject/MyProject";
 function Home() {
   return (
     <>
-      <section className="firstSection">
+      <section className="firstSection scroll-mt-28">
         <Navbar />
       </section>
-      <section className="profile">
+      <section className="profile scroll-mt-28" id="me">
         <Profile />
       </section>
 
-      <section className="mySkills">
+      <section className="mySkills scroll-mt-28" id="skills">
         <Skills />
       </section>
 
-      <section className="technologyIWork">
+      <section className="technologyIWork scroll-mt-28" >
         <SkillSet />
       </section>
 
-      <section className="myProject">
+      <section className="myProject scroll-mt-28" id="projects">
         <MyProject />
       </section>
     </>

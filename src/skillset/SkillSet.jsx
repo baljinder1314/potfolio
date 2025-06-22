@@ -1,4 +1,4 @@
-import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faDesktop, faServer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -96,7 +96,8 @@ function SkillSet() {
      
         <div className="major-skill-parts  flex flex-col items-center p-2 justify-center xl:w-full ">
           <div className="major-skill-icon">
-            <FontAwesomeIcon className="lg:text-[45px] text-[30px]" icon={faDesktop} />
+            
+            <FontAwesomeIcon  className="lg:text-[45px] text-[30px]" icon={faDatabase} />
           </div>
           <div className="major-skill-text w-full flex flex-col items-center  space-y-2 justify-center">
             <h2 className="frontend capitalize xl:text-[25px] text-[23px] font-bold">Backend developement</h2>
@@ -108,7 +109,7 @@ function SkillSet() {
      
         <div className="major-skill-parts  flex flex-col items-center p-2 justify-center xl:w-full ">
           <div className="major-skill-icon">
-            <FontAwesomeIcon className="lg:text-[45px] text-[30px]" icon={faDesktop} />
+            <FontAwesomeIcon className="lg:text-[45px] text-[30px]" icon={faServer} />
           </div>
           <div className="major-skill-text w-full flex flex-col items-center  space-y-2 justify-center">
             <h2 className="frontend capitalize xl:text-[25px] text-[23px] font-bold">data mining</h2>
