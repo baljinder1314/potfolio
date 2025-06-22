@@ -3,8 +3,9 @@ import Navbar from "../../components/navbar/Navbar";
 import Profile from "../../components/profile/Profile";
 import Skills from "../../components/skills/Skills";
 import SkillSet from "../../skillset/SkillSet";
+import MyProject from "../../components/myProject/MyProject";
 
-function FirstPage() {
+function Home() {
   return (
     <>
       <section className="firstSection">
@@ -23,10 +24,10 @@ function FirstPage() {
       </section>
 
       <section className="myProject">
-        <Project />
+        <MyProject />
       </section>
     </>
   );
 }
 
-export default FirstPage;
+export default Home;
