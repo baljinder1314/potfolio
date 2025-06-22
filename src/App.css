@@ -19,5 +19,5 @@
 }
 
 .orgBtnHover{
-  @apply bg-[#212121] text-white font-bold py-2 px-4 rounded shadow-md capitalize hover:bg-white hover:border hover:border-[#212121] hover:text-black duration-500 ;
+  @apply bg-[#212121] text-white font-bold py-2 px-4 rounded capitalize hover:bg-white shadow-lg hover:text-black duration-500 cursor-pointer;
 }

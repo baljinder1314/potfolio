@@ -4,11 +4,12 @@ import Profile from "../../components/profile/Profile";
 import Skills from "../../components/skills/Skills";
 import SkillSet from "../../skillset/SkillSet";
 import MyProject from "../../components/myProject/MyProject";
+import Contect from "../../components/contect/Contect";
 
 function Home() {
   return (
     <>
-      <section className="firstSection scroll-mt-28">
+      <section className="firstSection scroll-mt-28" id="home">
         <Navbar />
       </section>
       <section className="profile scroll-mt-28" id="me">
@@ -26,6 +27,11 @@ function Home() {
       <section className="myProject scroll-mt-28" id="projects">
         <MyProject />
       </section>
+      <section className="contect" id="contect">
+        <Contect />
+      </section>
+
+      
     </>
   );
 }

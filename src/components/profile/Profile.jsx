@@ -7,7 +7,7 @@ function Profile() {
         <div className="left lg:w-1/2  px-8 flex flex-col w-full items-center justify-center space-y-5  min-h-[60vh] ">
           <p className="welcome text-3xl leading-14 lg:text-5xl  font-bold text-gray-800">Welcome to my Web Development Portofolio!</p>
           <p className="lg:text-2xl text-xl leading-10 font-semibold text-gray-500">
-            I'm Lily Smith, a passionate web developer based in USA. Here,
+            I'm Baljinder, a passionate web developer based in India. Here,
             you'll get a glimpse of my journey in the world of web development,
             where creativity meets functionality.
           </p>
