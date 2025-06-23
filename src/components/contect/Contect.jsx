@@ -10,7 +10,7 @@ function Contect() {
   return (
     <footer className="container !p-0">
       <div className="contect-box px-14 flex flex-col py-8 gap-8 border-b border-[#ebebeb] xl:flex  justify-around items-center xl:py-15">
-        <h3 className="xl:text-3xl text-xl uppercase font-bold">
+        <h3 className="xl:text-3xl text-xl uppercase font-bold text-center">
           Hire me for your projects
         </h3>
         <div className="botton">
