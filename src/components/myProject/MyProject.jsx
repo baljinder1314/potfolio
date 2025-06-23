@@ -2,8 +2,8 @@ import React from "react";
 
 function MyProject() {
   return (
-    <div className="container bg-[#ececec] flex flex-col justify-center items-center xl:pb-7 ">
-      <div className="xl:flex justify-center items-center flex-col xl:p-6 p-4 xl:space-y-3 space-y-2">
+    <div className="container bg-[#ececec] flex flex-col justify-center items-center  pb-7 ">
+      <div className="xl:flex justify-center items-center flex-col xl:p-6 xl:pt-14 py-4 xl:space-y-3 space-y-2">
         <h3 className="xl:text-5xl font-bold text-gray-800 text-3xl text-center">
           MyProject
         </h3>
@@ -36,7 +36,7 @@ function MyProject() {
               target="_blank"
               className="xl:pt-4 "
             >
-              <button className="orgBtnHover">view project</button>
+              <button className="orgBtnHover ">view project</button>
             </a>
           </div>
         </div>

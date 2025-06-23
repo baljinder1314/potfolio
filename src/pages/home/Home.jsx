@@ -27,7 +27,7 @@ function Home() {
       <section className="myProject scroll-mt-28" id="projects">
         <MyProject />
       </section>
-      <section className="contect" id="contect">
+      <section className="contect scroll-mt-28" id="contect">
         <Contect />
       </section>
 

@@ -5,20 +5,7 @@ function App() {
     <>
       <div className="app bg-white h-auto  ">
         <Home />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+       
       </div>
     </>
   );

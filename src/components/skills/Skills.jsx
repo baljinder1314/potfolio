@@ -8,10 +8,10 @@ function Skills() {
           className="flex
        justify-center items-center flex-col gap-5"
         >
-          <p className="uppercase text-3xl font-semibold text-gray-800 ">
+          <p className="uppercase xl:text-3xl text-xl font-semibold text-gray-800 ">
             my skills
           </p>
-          <p className="capitalize text-6xl font-bold text-gray-900 ">
+          <p className="capitalize xl:text-6xl text-3xl font-bold text-gray-900 ">
             what i do
           </p>
           <p className="font-semibold text-xl text-gray-500 text-center w-[90%] md:w-[80%] xl:w-[60%] lg:w-[70%]  ">
