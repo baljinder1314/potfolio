@@ -12,18 +12,27 @@ function Navbar() {
           Baljinder Singh
         </div>
 
-        <div className="hamburger block xl:hidden" onClick={()=>setOpen(value = !value)}>
+        <div
+          className="hamburger block xl:hidden"
+          onClick={() => setOpen((value = !value))}
+        >
           <Hamburger size={22} toggled={isOpen} toggle={setOpen} />
         </div>
 
-        <div className={`${isOpen === true ? " right-0 duration-500 bg-white" : " right-[120%] duration-500"} top-full z-50 content w-full absolute xl:static  items-center justify-between    flex  px-6 py-2 xl:px-0 xl:py-0 `}>
+        <div
+          className={`${
+            isOpen === true
+              ? " right-0 duration-500 bg-white"
+              : " right-[120%] duration-500"
+          } top-full z-50 content w-full absolute xl:static  items-center justify-between    flex  px-6 py-2 xl:px-0 xl:py-0 `}
+        >
           <div className="flex flex-col xl:flex-row xl:justify-between w-full gap-3 xl:items-center">
             <div className="content ">
               <ul className="flex flex-col xl:flex-row xl:gap-3 gap-4 ">
                 <li>
                   <a
                     className="capitalize xl:text-[18px] text-[17px] flex items-center gap-2  "
-                    href="/"
+                    href="#"
                   >
                     <MdHome className="text-2xl" />
                     home
@@ -59,7 +68,7 @@ function Navbar() {
                 <li>
                   <a
                     className="capitalize xl:text-[18px] text-[17px] flex items-center gap-2  "
-                    href="/"
+                    href="#"
                   >
                     <PiReadCvLogoFill className="text-2xl" />
                     CV
@@ -73,7 +82,7 @@ function Navbar() {
                   <a href="#contect">Contact</a>
                 </li>
                 <li className="orgBtn">
-                  <a href="/">Services </a>
+                  <a href="#">Services </a>
                 </li>
               </ul>
             </div>
