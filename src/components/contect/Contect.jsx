@@ -15,7 +15,7 @@ function Contect() {
         </h3>
         <div className="botton">
           <a
-            href="#"
+            href="tel:+919872092495"
             className="capitalize xl:text-xl xl:!py-5 shadow-2xl xl:!px-10 orgBtnHover"
           >
             call me
