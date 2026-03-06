@@ -11,7 +11,7 @@ function Navbar() {
     <header className="container border-b border-gray-300 shadow-md fixed top-0 left-0 right-0 w-full bg-white z-50 p-[1.25rem]">
       <div className="navHeaderContainer flex items-center justify-between">
         
-        <div className="myName font-bold text-[1.5rem] xl:text-[1.875rem] w-[40%]">
+        <div className="myName font-bold text-[1.5rem] xl:text-[1.875rem] w-[100%]">
           Baljinder Singh
         </div>
 

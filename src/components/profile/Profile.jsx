@@ -2,7 +2,7 @@ import React from "react";
 
 function Profile() {
   return (
-    <div className="profile pt-10 sm:pt-7 lg:pt-25">
+    <div className="profile pt-20 sm:pt-7 lg:pt-25">
       <div className="container flex flex-col lg:flex-row !p-0">
         
         <div className="left lg:w-1/2 px-8 flex flex-col w-full items-center justify-center space-y-5 min-h-[60vh]">
