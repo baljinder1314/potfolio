@@ -19,20 +19,14 @@ function MyProject() {
       >
         <div className="rounded-2xl shadow-lg bg-[#f9f9f9] xl:w-1/4 xl:p-4  p-3 space-y-4 ">
           <div>
-            <img src="inotebook.png" alt="text Utility" className="w-full" />
+            <img src="netflix.png" alt="text Utility" className="w-full" />
           </div>
           <div className="flex justify-center items-center flex-col space-y-4">
             <p className="text-base/normal ">
-              📝 iNotebook is your secure and convenient online notebook,
-              designed to help you organize your thoughts and important
-              information from anywhere. Effortlessly create, edit, and delete
-              notes with a user-friendly interface. 🔒 Your data is safely
-              stored in the cloud, so you can access it anytime, on any
-              device—just log in with your credentials. Perfect for students,
-              professionals, and anyone who needs their notes on the go! ☁️
+           Developed a Netflix-inspired movie streaming application using React, Vite, and Redux for state management. Integrated GPT-powered search to recommend movies based on user queries, with features like user authentication via Supabase, movie browsing by categories (popular, top-rated, upcoming), and detailed movie information display. Ensured responsive design for mobile and desktop.
             </p>
             <a
-              href="https://inotebook-front-nine.vercel.app/"
+              href="https://net-flix-gpt-git-main-baljinder1314s-projects.vercel.app"
               target="_blank"
               className="xl:pt-4 "
             >
@@ -88,7 +82,9 @@ function MyProject() {
         </div>
       </div>
       <div>
-        <a  className="orgBtnHover" href="#home">read more</a>
+        <a className="orgBtnHover" href="#home">
+          read more
+        </a>
       </div>
     </div>
   );
